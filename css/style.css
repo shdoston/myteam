@@ -2,3 +2,401 @@
 @import "./varible.css";
 @import "./normalize.css";
 @import "./base.css";
+/* hero start */
+.header {
+    
+}
+.heder-container {
+    background-image:url(../images/Group\ 55.svg ),    
+                      url(../images/bg-pattern-home-2.svg);  
+    
+    background-repeat: no-repeat;
+    background-position: left center , right 165px bottom;
+    width: 1450px;
+    height: 700px;
+   padding-left: 165px;
+   padding-top: 74px;
+   background-color:var(--Midnight-Green);
+
+}
+.container {
+    
+}
+.header-list{
+    display: flex;
+   
+}
+    
+    
+    
+    
+    
+.header-logo {
+    display: flex;
+   
+   
+    gap: 40px;
+    margin-left: 81px;
+}
+ .heder-logo__link{
+    font-family: var(--main-font);
+ font-size: 18px;
+ line-height:28px ;
+ font-weight: 600; 
+ color:var(--White)
+}  
+.sitenav {
+  
+   margin-left: 577px; 
+   margin-right: 165px;
+
+}
+.sitenav-link{
+    border: 1px solid var(--White);
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height:28px ;
+    color: var(--White);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   padding-left: 32px;
+   padding-right: 32px;
+    font-weight: 600;
+}
+/* hero start */
+.hero {
+    margin-top: 129px;
+    display: flex;
+    align-items:center;
+    gap: 40px;
+}
+.hero-title {
+    font-family: var(--main-font);
+    font-size:100px ;
+    line-height:100px ;
+    font-weight: 700;
+    color:var(--White);
+    margin-right: 50px;
+    text-align: center;
+   
+}
+.hero-title1 {
+    color: var( --Light-Coral)
+}
+.hero-hr{
+    width: 50px;
+    height: 4px;
+    background-color: var(--Rapture-Blue) ;
+    margin-bottom: 79px;
+}
+.hero-text{
+    font-family:var(--main-font) ;
+    line-height:28px ;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--White);
+}
+/* hero end */
+
+
+/* main start */
+.main {
+}
+
+
+.main-container__build {
+    display: flex;
+    width:1450px;
+height: 684px;
+background-color:var( --Sacramento-State-Green);
+  padding-left: 165px;
+  padding-top: 140px;
+margin-left: 25px;
+  background-image:url(../images/Group\ 2.svg);
+  background-repeat:no-repeat;
+  background-position:right bottom;
+}
+.main-container__hr {
+}
+.main-hr {
+    margin-bottom: 54px;
+    width:50px ;
+    height:4px ;
+    background-color:var(--Light-Coral)
+}
+.main-hr__title {
+    font-family: var(--main-font);
+    font-size:32px ;
+    line-height:32px ;
+    font-weight:700 ;
+    color:var(--White);
+  
+}
+.main-person{
+    display: flex;
+   
+    margin-left: 125px;
+    gap:24px;
+    
+}
+ .main-container__title{
+    font-family: var(--main-font);
+    font-size:18px ;
+    line-height:28px ;
+    font-weight:700 ;
+    color:var(--Light-Coral);
+    margin-bottom:1.6rem;
+ } 
+ .main-container__text{
+    font-family: var(--main-font);
+    font-size:15px;
+    line-height:25px ;
+    font-weight:600 ;
+    color:var(--White);
+    margin-bottom:3.2rem; 
+    margin-right: 165px;
+    opacity: 0.8;
+ } 
+
+/* main end */
+/* main 2 */
+.main-container__build2{
+    background-image:url(../images/bg-pattern-home-4-about-3.svg ),    
+                      url(../images/bg-pattern-home-5.svg);  
+    
+    background-repeat: no-repeat;
+    background-position: left top , right  bottom;
+                          
+
+    width: 1450px;
+    height: 745px;
+    background-color:var( --Deep--Jungle-Green);
+    margin-left: 25px;
+    
+}
+.main-delivering{
+    font-family: var(--main-font);
+    font-size: 48px;
+    line-height:48px ;
+    font-weight:700;
+    color:var(--White) ;
+    padding-left: 254px;
+    padding-top: 140px;
+    /* padding-bottom: 56px; */
+}
+.main-delivering2{
+    color: var( --Police-Blue);
+}
+.main-container__build3{
+    display: flex;
+    padding-left: 165px;
+    gap: 30px;
+}
+.main-container__build2-text{
+    font-family: var(--main-font);
+    font-size:15px ;
+    line-height:25px ;
+    font-weight:600 ;
+    color: var(--White);
+    margin-bottom: 24px;
+    
+}
+.main-kady{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.main-kady__title{
+    font-family: var(--main-font);
+    font-size:18px ;
+    line-height:28px ;
+    font-weight:700 ;
+    color: var(--Police-Blue);
+}
+.main-product{
+    font-family: var(--main-font);
+    font-size:13px ;
+    line-height:18px ;
+    font-weight:500 ;
+    color:var(--White) ;
+}
+.main-avatar{
+    margin-top: 32px;
+    border-radius:50%;
+}
+.main-container__buildl{
+    display: none;
+}
+.footer-ready{
+    display: flex;
+    padding-left: 263px;
+    padding-top: 76px;
+    background-color:var(--Light-Coral);
+    max-width: 1450px;
+    height: 200px;
+    margin-left: 25px;
+background-image:url(../images/bg-pattern-home-6-about-5.svg);
+background-repeat:no-repeat;
+background-position:left bottom;
+
+}
+.main-footer-title{
+    font-family: var(--main-font);
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    color:var(  --Sacramento-State-Green) ;
+}
+.main-footer-link{
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height:28px ;
+    font-weight: 600;
+    color: var(--Sacramento-State-Green);
+    margin-left: 292px;
+}
+
+
+/* main2 end */
+/* footer start */
+
+
+/* BREACKEPOIN */
+@media (max-width:768px){
+    .heder-container{
+        padding-left: 39px;
+        background-image: url(../images/bg-pattern-home-2.svg); 
+        background-position:left 205px bottom ;
+        height: 800px;
+        width: 768px;
+        padding-right: 40px;
+    }
+    .sitenav {
+  
+        margin-left: 150px; 
+        margin-right: 40px;
+     
+     }
+.hero{
+ display: flex;
+ align-items:center;
+ justify-content: center;
+   flex-direction: column;
+   padding-left:110px ;
+   padding-right: 116px;
+   margin-left: 40px;
+  
+
+}
+.hero-title{
+    font-size:64px ;
+    
+   line-height: 56px;
+      margin-bottom: 25px;
+    }
+    .hero-hr{
+        display: none;
+    }
+ .hero-text{
+    font-size: 15px;
+    line-height: 28px;
+}
+    /*main start  */
+   
+    .main-container__build{
+        display: flex;
+        flex-direction: column;
+     
+    max-width: 768px;
+       height: 800px;
+   margin-left: auto;
+  margin-right: auto;
+padding-left: 98px;
+  padding-right: 98px;
+       background-image:url(../images/Group\ 2.svg);
+  background-repeat:no-repeat;
+  background-position:right top;
+     
+}
+    
+.main-easy{
+    display: flex;
+    flex-direction: column;
+   text-align: left;
+  
+}      
+.main-hr{
+   margin-bottom: 32px;
+} 
+.main-hr__title {
+    margin-right: 225px;
+    padding-bottom: 40px;
+}
+.main-person{
+    margin-left: auto;
+    margin-right: auto;
+}
+    /* main end */
+    /* main build2 start */
+    .main-container__build2{
+        display: none;
+
+    }
+    .main-container__buildl{
+        display: block;
+        max-width: 768px;
+        height: 1250px;
+        background-color:var( --Deep--Jungle-Green);
+        margin-left: auto;
+        margin-right: auto;
+    }
+.main-container__build3{
+    display: flex;
+    flex-direction: column;
+   align-items:center;
+   padding-left: 5px;
+   padding-right: 100px;
+   padding-bottom: 100px;
+}
+.main-kady{
+    padding-left: 97px;
+}
+   
+    .main-delivering{
+        font-family: var(--main-font);
+        font-size: 32px;
+        line-height:32px ;
+        font-weight:700;
+        color:var(--White) ;
+        padding-left: 98px;
+        padding-top: 98px;
+        padding-bottom: 48px;
+    }
+    .footer-ready{
+       padding: 0;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+             
+}  
+  .main-footer-title{
+    font-size:32px ;
+    line-height:32px ;
+    padding-left: 110px ;
+    padding-top: 70px;
+}     
+  .main-footer-link{
+    margin-left: 32px;
+    padding-top: 70px;
+    margin-left: 80px;
+  }  
+
+
+
+
+    /* main build2 end */
+}
+
