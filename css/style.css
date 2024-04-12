@@ -2,6 +2,7 @@
 @import "./varible.css";
 @import "./normalize.css";
 @import "./base.css";
+@import "./abaut.css";
 /* hero start */
 .header {
     
@@ -78,7 +79,7 @@
     font-weight: 700;
     color:var(--White);
     margin-right: 50px;
-    text-align: center;
+    
    
 }
 .hero-title1 {
@@ -276,7 +277,7 @@ background-position:left bottom;
     }
     .sitenav {
   
-        margin-left: 150px; 
+        margin-left: 130px; 
         margin-right: 40px;
      
      }
@@ -288,12 +289,11 @@ background-position:left bottom;
    padding-left:110px ;
    padding-right: 116px;
    margin-left: 40px;
-  
-
 }
+
 .hero-title{
     font-size:64px ;
-    
+    text-align: center;
    line-height: 56px;
       margin-bottom: 25px;
     }

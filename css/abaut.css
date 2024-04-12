@@ -1,0 +1,24 @@
+.header-container {
+    background-image:url(../images/home.2.svg) ;   
+    background-repeat: no-repeat;
+    background-position: right  bottom;
+    width: 1450px;
+    height: 700px;
+   padding-left: 165px;
+   padding-top: 74px;
+   background-color:var(--Midnight-Green);
+}
+
+/* responsive start*/
+@media (max-width:768px){
+    .header-container{
+        padding-left: 39px;
+ 
+        height: 800px;
+        width: 768px;
+        padding-right: 40px;
+    }
+}
+/* resposili end */
+                        
+    
