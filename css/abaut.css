@@ -8,6 +8,121 @@
    padding-top: 74px;
    background-color:var(--Midnight-Green);
 }
+/* main start */
+.main {
+}
+.main-container {
+}
+.container {
+}
+.main-social{
+display: flex;
+align-items:center;
+flex-direction: column;
+    max-width: 1450px;
+    height: 1002px;
+    background-color:var(  --Deep--Jungle-Green);
+    margin-left: 25px;
+    padding-top: 140px;
+    background-image:url(../images/Group\ m.svg ),    
+                     url(../images/directors-rect.svg);  
+
+background-repeat: no-repeat;
+background-position: left top , right bottom;
+
+    
+}
+.main-social2{
+    display: none;
+}
+.main-abaut__meet-title{
+    font-family: var(--main-font);
+    font-size: 48px;
+    line-height: 48px;
+    font-weight:700 ;
+    color: var(--White);
+    margin-bottom: 64px;
+}
+.main-abaut__meet {
+ display: flex;
+    gap: 30px;
+    margin-bottom: 76px;
+}
+.main-abaut__directors {
+    display: flex;
+ justify-content: center;
+    padding-top: 32px;
+    width: 350px;
+    height: 253px;
+    background-color:  var(  --Sacramento-State-Green);
+}
+.main-abaut__list {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.main-icon {
+    border-radius: 50%;
+}
+.main-nikita {
+    font-family: var(--main-font);
+    font-size:18px ;
+    line-height: 28px;
+    font-weight:700 ;
+    color:var(  --Police-Blue) ;
+    margin-top: 16px;
+}
+.main-founder {
+    font-family: var(--main-font);
+    font-size:15px ;
+    line-height: 25px;
+    font-weight:500 ;
+    color:var(  --White) ;
+    font-style: italic;
+    text-align: center;
+}
+.main-imga{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--Light-Coral);
+    margin-bottom: -20px;
+  border-radius:50%;
+  margin-left: 150px;
+  margin-top: -22px;
+ 
+}
+.main-container2{
+    background-image:url(../images/Group\ lej.svg);
+    background-repeat: no-repeat;
+    
+    width: 1450px;
+margin-left: 25px;
+height: 437px;
+padding-top: 100px;
+    background-color: var(--Sacramento-State-Green);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.main-some{
+    font-family: var(--main-font);
+    font-size:32px ;
+    line-height:32px ;
+    font-weight:700 ;
+    color:var(--White);
+    margin-bottom:64px ;
+}
+.main-container3{
+    display: flex;
+    padding-left: 165px;
+    align-items:center;
+    gap: 80px;
+    padding-right: 165px;
+
+}
+/* main end */
 
 /* responsive start*/
 @media (max-width:768px){
@@ -18,7 +133,35 @@
         width: 768px;
         padding-right: 40px;
     }
+ 
+    .main-social{
+        display: none;
+    }
+
 }
-/* resposili end */
+resposili end
+/* @media (max-width:375px){
+    .header-container{
+        padding-left: 24px;
+ max-width: 375px;
+        height: 800px;
+       margin: auto;
+        padding-right: px;
+    }
+    .header-logo{
+        display: none;
+    }
+    .hero{
+        margin: auto;
+        padding-left: 24px;
+    }
+      .sitenav-link{
+        display: none;
+      }  
+      .hero-title{
+        line-height: 56px;
+       
+      }
+} */
                         
     
